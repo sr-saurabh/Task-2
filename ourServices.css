@@ -1,0 +1,99 @@
+
+nav ul li:nth-child(3){
+    margin: 0px -1.3px;
+    background-color: #507394;
+    border-radius: 3px;
+    color: #ffffff;
+}
+
+.services{
+    display:flex;
+    margin-top: 20px;
+    padding: 0px 25px 25px 30px;
+    background-color: #0d192cf5;
+    opacity: 0.92;
+    color: #FFFFFF;
+
+}
+.case-studies{
+    padding-top:19px;
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+}
+.case-studies img {
+    padding: 10px 0px;
+    width: 100%;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    padding: 10px 0px;
+    width: 100%;
+    border-color: #626A6D;
+    border-style:solid none;
+    border-width: 0.1px;
+}
+.links a {
+    color: #AEBED6;
+    font-size: 13px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.service-detail{
+    width: 60%;
+    padding-top: 5px;
+    margin-left: 25px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.service-detail p{
+    font-size: 13px;
+}
+.service-detail h3{
+    color: #c0ddf4;
+    letter-spacing: 3px;
+}
+.service-detail p a{
+    color:#c4d7f7;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.service-detail ul{
+    font-size: 13px;
+}
+
+.service-detail div{
+    background-color: #0f1e33dd;
+    padding:10px 35px ;
+    border-color: #626A6D;
+    border-style:solid none;
+    border-width: 0.1px;
+}
+
+.service-detail div p{
+    margin:5px 0px;
+
+}
+.service-detail div a{
+    text-decoration: none;
+    background-image: linear-gradient(#185B73, #10223A);
+    padding:5px;
+    color: #D0E5FE;
+    background-color: #24406B;
+    opacity: 0.9;
+    border-radius: 5px;
+    font-size: 12px;
+    border:1px solid #194962;
+    cursor: pointer;
+}
+
+
+
+
+
+
+

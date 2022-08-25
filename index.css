@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    padding: 0% 20%;
+    background-image: url('bg.jpg') ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    backdrop-filter:  contrast(105%);
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+
+.option{
+    margin-left:70%;
+    background-color: #3C5C8F;
+    font-size: 10px;
+    color: #FFFFFF;
+    height: auto;
+    opacity:0.8;
+
+}
+.option ul {
+    list-style: none;
+    display: flex;
+    padding:0px; 
+    padding-top: 2px;
+    margin:0px;
+}
+.option ul li{
+    padding:0px 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    height: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+    display: flex;
+    padding: 2px 6px 5px 25px;
+    outline: 1px solid #374c6166;
+    outline-offset: -5px;
+    margin-top: 30px;
+    height: 45px;
+    background-color: #061021;
+    opacity: 0.8;
+    color: #badaed;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    justify-content: space-between;
+}
+nav img{
+    box-shadow: #07111d;
+    transform: rotate(2deg);
+    height: 125px;
+    filter: brightness(110%) contrast(150%);
+
+}
+nav ul{
+    list-style:none;
+    display: flex;
+    font-size: 15px;
+    align-items:center;
+    color: #fff;
+}
+nav ul li{
+    margin:5px 10px 0px 0px;
+    padding:4px 12px;
+    color: #badaed;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #badaed;
+}
+
+.status{
+
+    padding:5px 20px 10px 20px;
+    height: 125px;
+    background-image: linear-gradient( #2e2a2a2e,#2e2a2a81);
+    line-height: 5px;
+
+}
+.status p{
+    color: #FEFFFF;
+    font-size: 40px;
+    letter-spacing: 9px;
+    word-spacing: 10px;
+    font-family: 'PT Sans', sans-serif;
+    text-shadow: 1px 1px 5px rgb(2, 2, 2);
+}
+
+.blog-item{
+    display: flex;
+    padding: 15px;
+    background-color: #0d192cf5;
+    opacity: 0.9;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+.blog-item div{
+    margin: 9px;
+    width: 32%;
+}
+.col-1 img{
+
+    filter: brightness(175%) contrast(150%);
+}
+
+.blog-item div img{
+    height: 120px;
+    width: 95%;
+}
+.blog-item div a{
+    color: #B1EBFF;  
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 5px;
+    height: 24px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#28406A ;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #D5DBF8;
+}
+footer p{
+    margin:0px;
+}
+footer a{
+    padding: 0px 5px;
+    color: #FFFFFF;
+    text-decoration: underline;
+    cursor: pointer;
+}
